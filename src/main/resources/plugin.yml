@@ -1,0 +1,4 @@
+name: minecraft_minigames
+version: '1.0-SNAPSHOT'
+main: lobby.minecraft_minigames.Minecraft_minigames
+api-version: '1.21'
