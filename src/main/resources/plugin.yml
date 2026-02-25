@@ -2,3 +2,21 @@ name: minecraft_minigames
 version: '1.0-SNAPSHOT'
 main: lobby.minecraft_minigames.Minecraft_minigames
 api-version: '1.21'
+description: Hypixel-style Party Games Plugin
+
+commands:
+  minigame:
+    description: Minigame commands
+    aliases: [mg]
+    usage: /<command> <join|leave|start|stop|list>
+  party:
+    description: Party commands
+    usage: /<command> <create|invite|accept|deny|leave|kick|list|disband>
+
+permissions:
+  minigames.play:
+    description: Allow playing minigames
+    default: true
+  minigames.admin:
+    description: Admin commands for minigames
+    default: op
