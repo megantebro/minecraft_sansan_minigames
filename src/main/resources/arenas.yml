@@ -1,0 +1,50 @@
+# Arena Configuration
+# Each arena requires:
+#   display-name: Display name shown to players
+#   game-type: One of TNT_RUN, SPLEEF, SUMO, ONE_IN_THE_QUIVER, HOT_POTATO,
+#              COLOR_SWAP, KING_OF_THE_HILL, PARKOUR_RACE, MUSICAL_MINECARTS,
+#              BLOCK_SHUFFLE, ANVIL_RAIN, SNOWBALL_FIGHT
+#   world: World name
+#   bounds: Two corners defining the arena boundary
+#   lobby-spawn: Where players wait before the game
+#   spawn-points: Numbered spawn locations for players
+#   custom-points: Game-specific data (death-y, floor-y, hill-y, etc.)
+#
+# Example:
+# arenas:
+#   tntrun_1:
+#     display-name: "TNT Run Arena 1"
+#     game-type: TNT_RUN
+#     world: world
+#     bounds:
+#       corner1:
+#         x: 100
+#         y: 50
+#         z: 100
+#       corner2:
+#         x: 150
+#         y: 80
+#         z: 150
+#     lobby-spawn:
+#       x: 125
+#       y: 85
+#       z: 125
+#       yaw: 0
+#       pitch: 0
+#     spawn-points:
+#       0:
+#         x: 110
+#         y: 75
+#         z: 110
+#         yaw: 0
+#         pitch: 0
+#       1:
+#         x: 140
+#         y: 75
+#         z: 140
+#         yaw: 180
+#         pitch: 0
+#     custom-points:
+#       death-y: 50
+
+arenas: {}
